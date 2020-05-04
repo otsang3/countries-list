@@ -46,7 +46,6 @@ const createRouter = function (collection) {
     .then(result => res.json(result))
   })
 
-
   return router;
 
 };
